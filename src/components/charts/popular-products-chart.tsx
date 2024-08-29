@@ -51,16 +51,13 @@ const chartConfig = {
 
 export function PopularProductsChart() {
   return (
-    <Card className="flex flex-col border">
+    <Card className="flex flex-col border h-full">
       <CardHeader className="items-center pb-0">
         <CardTitle>Produtos populares</CardTitle>
         <CardDescription>Os 5 produtos com mais vendas</CardDescription>
       </CardHeader>
       <CardContent className="flex-1 pb-0">
-        <ChartContainer
-          config={chartConfig}
-          className="mx-auto aspect-video max-h-[250px]"
-        >
+        <ChartContainer config={chartConfig} className="mx-auto aspect-video">
           <PieChart>
             <ChartTooltip
               cursor={false}

@@ -15,7 +15,7 @@ export default function Home() {
         <DayOrdersAmountCard />
         <MonthCanceledOrdersAmountCard />
       </div>
-      <div className="grid grid-cols-3 space-x-4">
+      <div className="grid grid-cols-3 space-x-2">
         <div className="col-span-2">
           <ReceiptChart />
         </div>

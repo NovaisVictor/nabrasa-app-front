@@ -39,7 +39,7 @@ export function ReceiptChart() {
         <CardDescription>Receita no período</CardDescription>
       </CardHeader>
       <CardContent>
-        <ChartContainer config={chartConfig}>
+        <ChartContainer config={chartConfig} className="max-h-[200px] w-full">
           <LineChart
             accessibilityLayer
             data={chartData}
